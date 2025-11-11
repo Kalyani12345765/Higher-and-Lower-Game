@@ -15,6 +15,7 @@ def compare(no_followers_a, no_followers_b, user_input, scoring_point): #paramet
         print(f"You are right. Your current score is {scoring_point+1}")
         return scoring_point+ 1 #keeping adding one digit up, whenever it equates with group_select
     else:
+        print(f"Sorry, that's wrong! Your Final Score: {Score}")
         return -1 
 
 Score =0
@@ -44,7 +45,8 @@ while Score!=-1: #while the Score is not -1, do the following Code, ie. while us
 
 
 
-print(f"Sorry, that's wrong! Your Final Score: {Score}")
+
+
 
 
 
